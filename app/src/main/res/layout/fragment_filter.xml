@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_marginHorizontal="24dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/bottom_sheet"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+    <EditText
+        android:layout_marginBottom="24dp"
+        android:id="@+id/ed_name"
+        android:textColor="@color/black"
+        android:hint="name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+    <Button
+        android:id="@+id/btn_search"
+        android:text="search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</LinearLayout>
